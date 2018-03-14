@@ -14,14 +14,16 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 @Configuration
 public class Application {
+    private volatile Integer value = 0;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/increment")
     public String index() {
-        return "service1";
+        value++;
+        return value.toString();
     }
 
     @GetMapping("/health-check")
