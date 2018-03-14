@@ -6,3 +6,4 @@ spring:
       discovery:
         healthCheckPath: /health-check
         healthCheckInterval: 10s
+      host: consul
