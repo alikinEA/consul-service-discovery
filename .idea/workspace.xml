@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b678873-7028-4c05-8a70-74ff83f38aa6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service1/target/classes/Application.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service1/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service1/target/service1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service1/target/service1.jar.original" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/classes/Application.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/service2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/service2.jar.original" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service1/target/classes/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service1/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/classes/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service1/target/classes/Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service1/target/classes/bootstrap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service1/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service1/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service1/target/service1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service1/target/service1.jar.original" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/classes/Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/classes/bootstrap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/service2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service2/target/service2.jar.original" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,9 +66,9 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1521120712000" expanded="true" signature="66812:66829" ph="..." />
-                <marker date="1521120712000" expanded="true" signature="66812:66847" ph="..." />
-                <marker date="1521120712000" expanded="true" signature="66812:66860" ph="..." />
+                <marker date="1521121649000" expanded="true" signature="67111:67128" ph="..." />
+                <marker date="1521121649000" expanded="true" signature="67111:67146" ph="..." />
+                <marker date="1521121649000" expanded="true" signature="67111:67159" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,11 +127,10 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service2/src/main/java/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="242">
+              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
                 <element signature="e#1380#1381#0" expanded="true" />
                 <element signature="e#1675#1676#0" expanded="true" />
                 <element signature="e#1715#1716#0" expanded="true" />
@@ -800,7 +799,7 @@
       <option name="presentableId" value="Default" />
       <updated>1520680220819</updated>
       <workItem from="1520680228693" duration="8434000" />
-      <workItem from="1520692611484" duration="15911000" />
+      <workItem from="1520692611484" duration="16322000" />
     </task>
     <task id="LOCAL-00001" summary="client balancing">
       <created>1521054151818</created>
@@ -872,11 +871,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521120700763</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="one more commit">
+      <created>1521120756195</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1521120756195</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24345000" />
+    <option name="totallyTimeSpent" value="24756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -888,9 +894,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24626866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4937811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4937811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25250357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1012,7 +1018,6 @@
           <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
             <element signature="e#1380#1381#0" expanded="true" />
             <element signature="e#1675#1676#0" expanded="true" />
             <element signature="e#1715#1716#0" expanded="true" />
@@ -1185,9 +1190,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521120712000" expanded="true" signature="66812:66829" ph="..." />
-            <marker date="1521120712000" expanded="true" signature="66812:66847" ph="..." />
-            <marker date="1521120712000" expanded="true" signature="66812:66860" ph="..." />
+            <marker date="1521121649000" expanded="true" signature="67111:67128" ph="..." />
+            <marker date="1521121649000" expanded="true" signature="67111:67146" ph="..." />
+            <marker date="1521121649000" expanded="true" signature="67111:67159" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1212,11 +1217,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service2/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="242">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
             <element signature="e#1380#1381#0" expanded="true" />
             <element signature="e#1675#1676#0" expanded="true" />
             <element signature="e#1715#1716#0" expanded="true" />
