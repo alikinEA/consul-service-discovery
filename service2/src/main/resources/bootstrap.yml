@@ -5,4 +5,4 @@ spring:
     consul:
       discovery:
         healthCheckPath: /health-check
-        healthCheckInterval: 10s
+        healthCheckIanterval: 10s

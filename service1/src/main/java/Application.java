@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 /**
  * Created by Alikin E.A. on 10.03.18.
  */
@@ -14,16 +17,18 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 @Configuration
 public class Application {
-    private volatile Integer value = 0;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 
-    @RequestMapping("/increment")
+    @RequestMapping("/host/name")
     public String index() {
-        value++;
-        return value.toString();
+        try {
+            return InetAddress.getLocalHost().getHostName();
+        } catch (UnknownHostException e) {
+            return e.getMessage();
+        }
     }
 
     @GetMapping("/health-check")

@@ -1,0 +1,25 @@
+version: '2'
+services:
+  consul:
+      image: "progrium/consul:latest"
+      container_name: "consul"
+      ports:
+        - "8400:8400"
+        - "8500:8500"
+      command: "-server -bootstrap -ui-dir /ui"
+  service1:
+    container_name: "service1"
+    depends_on:
+        - "consul"
+    build: ./service1
+    ports:
+      - "8080:8080"
+    network_mode: "host"
+  service2:
+        container_name: "service2"
+        depends_on:
+            - "consul"
+        build: ./service2
+        ports:
+          - "8081:8081"
+        network_mode: "host"

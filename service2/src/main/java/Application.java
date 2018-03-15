@@ -34,9 +34,9 @@ public class Application {
 
 
     //client load balancing
-    @RequestMapping("/getIncValueFromService1")
+    @RequestMapping("/hostname/service1")
     public String index() {
-        return restTemplate.getForObject("http://service1/increment",String.class);
+        return restTemplate.getForObject("http://service1/host/name",String.class);
     }
 
     @GetMapping("/health-check")
