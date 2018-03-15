@@ -1,8 +1,0 @@
-spring:
-  application:
-    name: service2
-  cloud:
-    consul:
-      discovery:
-        healthCheckPath: /health-check
-        healthCheckIanterval: 10s
